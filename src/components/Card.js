@@ -1,20 +1,20 @@
-import exp1 from '../images/exp1.png'
+
 import '../style.css'
-export default function Card(){
+export default function Card(props){
     return (
         <div className='card'>
             <div className='image'>
-                <img src={exp1} width= "176px" height="235px"/>
-                <h5 className='sold-out'> SOLD OUT</h5>
+                <img src={`./${props.img}`}  width= "176px" height="235px"/>
+                <h5 className='sold-out'>{props.status}</h5>
             </div>
             <div className='rating'>
                 <span className='star'>&#9733;</span>
-                <span className='rated'> 5.0</span>
-                <span className='location'> (6) &#183; USA</span>
+                <span className='rated'> {props.rating}</span>
+                <span className='location'> ({props.reviewCount}) &#183; {props.country}</span>
             </div> 
-            <p className='description'>Life lessons with Katie Zaferes</p>
+            <p className='description'>{props.title}</p>
             <div className='cost'>
-                <span className='price'>From $136 / </span>
+                <span className='price'>From ${props.price} / </span>
                 <span>person</span>
             </div>
             

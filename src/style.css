@@ -89,8 +89,7 @@ nav{
 .location{
     color: #918E9B;
 }
-.description, .cost{
-
+.description{
     margin-top: 4px;
     margin-bottom: 4px;
     line-height: 110%;
@@ -98,6 +97,11 @@ nav{
 
 .price{
     font-weight: 600;
+    line-height: 110%;
+}
+.cost{
+    margin-top: 8px;
+    margin-bottom: 4px;
     line-height: 110%;
 }
 
