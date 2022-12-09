@@ -19,4 +19,14 @@ export default [
         price:125,
         status:"ONLINE"
     },
+    {
+        id:3,
+        image:"exp3.png",
+        rating:4.8,
+        reviewCount:2,
+        country:"USA",
+        title:"Group Mountain Biking",
+        price:50,
+        status:"ONLINE"
+    },
 ]

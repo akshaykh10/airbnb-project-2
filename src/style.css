@@ -105,5 +105,11 @@ nav{
     line-height: 110%;
 }
 
+.row-scroll{
+    display: flex;
+    flex-direction: row;
+    margin:14px
+}
+
 
 
