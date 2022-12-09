@@ -24,7 +24,7 @@ export default [
         image:"exp3.png",
         rating:4.8,
         reviewCount:2,
-        country:"USA",
+        country:"NORWAY",
         title:"Group Mountain Biking",
         price:50,
         status:"ONLINE"
